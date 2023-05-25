@@ -1,0 +1,95 @@
+body{
+    width: 750px;
+    height: 750px;
+    background-color: white;
+    float: left;
+}
+
+header{
+    width: 750px;
+    height: 250px;
+    background-color: white;
+    border: 13px solid black;
+    margin: -8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+#border{
+    width: 500px;
+    height: 235px;
+    background-color: white;
+    border: 8px solid #3D9BD1;
+    margin: -5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+#logo{
+    width: 250px;
+    height: 235px;
+    background-color: white;
+    border: 8px solid #3D9BD1;
+    margin: -5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+nav{
+    width: 750px;
+    height: 100px;
+    background-color: #69EE8F;
+    border: 13px solid black;
+    margin: -8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+cuadro {
+    width: 750px;
+    height: 400px;
+    background-color: white;
+    border: 13px solid black;
+    margin: -8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+article{
+    width: 450px;
+    height: 370px;
+    background-color: white;
+    border: 13px solid #F6DDCC;
+    margin: -5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+aside{
+    width: 300px;
+    height: 370px;
+    background-color: white;
+    border: 13px solid #F6DDCC;
+    margin: -5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+footer{
+    width: 750px;
+    height: 50px;
+    background-color: #F1C40F ;
+    border: 13px solid black;
+    margin: -8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
