@@ -1,0 +1,23 @@
+/* iframe{
+    width: 500px;
+    height: 300px;
+} */
+.grid-container{
+    background-color: aqua;
+    border: 1px solid black;
+    display: grid;
+    padding: 10px;
+    grid-template-columns: auto auto auto;
+}
+.grid-item{
+    background-color: white;
+    border: 1px solid #404040;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+
+}
+.text-item{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
