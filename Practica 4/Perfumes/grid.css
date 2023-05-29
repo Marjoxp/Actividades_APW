@@ -3,7 +3,7 @@
     height: 300px;
 } */
 .grid-container{
-    background-color: aqua;
+    background-color: #B2BABB;
     border: 1px solid black;
     display: grid;
     padding: 10px;
@@ -14,9 +14,9 @@
     border: 1px solid #404040;
     padding: 20px;
     font-size: 30px;
-    text-align: center;
-
+    text-align: center
 }
+
 .text-item{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
