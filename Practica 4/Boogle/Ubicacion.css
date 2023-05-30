@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .formato{
     color: aliceblue;
     margin: auto;
@@ -15,4 +16,23 @@
     border-radius: 16px;
     box-shadow: 0 4px 30px black;
     border: 1px solid #BDC3C7 ;
+=======
+.formato{
+    color: aliceblue;
+    margin: auto;
+    width: fit-content;
+    padding: 1em;
+}
+.Registro{
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background: radial-gradient(circle, transparent 20%, #e5e5f7 20%, #e5e5f7 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #e5e5f7 20%, #e5e5f7 80%, transparent 80%, transparent) 25px 25px, linear-gradient(#86c3e9 2px, transparent 2px) 0 -1px, linear-gradient(90deg, #86c3e9 2px, #e5e5f7 2px) -1px 0;
+    background-size: 50px 50px, 50px 50px, 25px 25px, 25px 25px;
+}
+.Evento{
+    background: #BDC3C7 ;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px black;
+    border: 1px solid #BDC3C7 ;
+>>>>>>> 356826dfcd6c12320429586801ab884113864fd0
 }
