@@ -1,0 +1,118 @@
+.boxx{
+    width: 1000px;
+    height: auto;
+    border: solid black;
+}
+.menu{
+    background-color: #44CA51 ;
+    border: solid black;
+    height: 100px;
+    display: flex;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    margin: 15px;
+    flex: 1;
+    
+}
+.header{
+    background-color: #3D9BD1 ;
+    height: 300px;
+    border: solid black;
+    display: flex;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    flex-basis: 800px;
+    border: solid black;
+    margin: 20px;
+    margin-right: 0;
+}
+.recuadros{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.login{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.form{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    margin: 5px;
+    border: solid black;
+    height: 50px;
+    width: 160px;
+}
+.cuadro2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    margin: 5px;
+    border: solid black;
+    height: 50px;
+    width: 100px;
+}
+
+.cuadro3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    margin: 5px;
+    border: solid black;
+    height: 50px;
+    width: 100px;
+}
+.main{
+    background-color: #F6DDCC;
+    border: solid black;
+    height: 500px;
+    display: flex;
+}
+.lados{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    margin: 10px;
+    flex-basis: 200px;
+ 
+}
+.article{
+    width: 450px;
+    height: 400 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    margin: 10px;
+    flex-basis: 500px;
+   
+}
+
+.footer{
+    height: 50px ;
+    border: solid black;
+    background-color: #F1C40F ;
+}
