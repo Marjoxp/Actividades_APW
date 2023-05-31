@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 *{
     box-sizing: border-box;
     padding: 0;
@@ -30,28 +29,4 @@ body >div{
     body{
         grid-template-columns: 1fr;
     }
-=======
-/* iframe{
-    width: 500px;
-    height: 300px;
-} */
-.grid-container{
-    background-color: #B2BABB;
-    border: 1px solid black;
-    display: grid;
-    padding: 10px;
-    grid-template-columns: auto auto auto;
-}
-.grid-item{
-    background-color: white;
-    border: 1px solid #404040;
-    padding: 20px;
-    font-size: 30px;
-    text-align: center
-}
-
-.text-item{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-
->>>>>>> 356826dfcd6c12320429586801ab884113864fd0
 }
