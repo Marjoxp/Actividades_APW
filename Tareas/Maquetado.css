@@ -1,0 +1,22 @@
+body {
+    padding-top: 60px;
+  }
+  
+  section {
+    text-align: center;
+  }
+  
+  .card {
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    color: #fff;
+  }
+  

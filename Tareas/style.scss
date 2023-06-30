@@ -1,0 +1,36 @@
+body{
+    background-image: url(https://wallpapers.com/images/featured/pattern-4u7ed6koskqhcez1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+};
+
+article{
+    backdrop-filter: blur(10px);
+    border: solid #747f99 5px;
+    border-radius: 15px;
+    margin-top: 3%;
+    padding: 0%;
+}
+
+h2, h3{
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+$theme-colors:(
+    "cafe": $cafe,
+    "verde": $verde,
+);
+
+.carousel-item{
+    width: 100vh;
+    height: 60vh;
+    object-fit: cover;
+};
+
+.card{
+    margin-top: 5%;
+}
+@import "node_modules/bootstrap/scss/bootstrap.scss"
