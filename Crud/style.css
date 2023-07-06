@@ -1,0 +1,68 @@
+body{
+    margin: 50px;
+    height: 90vh;
+}
+.container{
+    display: flex;
+    gap:50px;
+}
+#post{
+    width: 400px;
+}
+
+#post div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.options{
+    display: flex;
+    gap: 25px;
+}
+
+i{
+    cursor: pointer;
+}
+
+#msg{
+    color: red;
+}
+
+.boton2{
+    text-align: center;
+    border-radius: 8px;    
+}
+.recuadro
+{
+width: 90%;
+height: 90%;
+margin: auto;
+padding: 5%;
+
+}
+.recuadro > *{
+    color: black;
+    align-self: center;
+    justify-self: center;
+}
+.cristal{
+    /* From https://css.glass */
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+#fondo{
+    background-color: lightblue;
+    display: grid;
+}
+.comentario{
+    width: 100%;
+    height: auto;
+}
+.comentario > *{
+    word-wrap: break-word;
+    word-break: break-all;
+}
