@@ -1,0 +1,14 @@
+body{
+    height: 98vh;
+    background-image: url("https://vignette.wikia.nocookie.net/southpark/images/c/ca/Bus-stop.jpg/revision/latest?cb=20141214163925");
+    background-attachment: local;
+    background-size: cover;
+    display: grid;
+}
+.verticalcontainer{
+    height: 90%;
+    aspect-ratio: 3/4;
+    align-self: center;
+    justify-self: center;
+    
+}

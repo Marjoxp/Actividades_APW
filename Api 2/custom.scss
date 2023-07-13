@@ -1,0 +1,13 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+$primary: rgb(2, 12, 17);
+
+*{
+    font-family: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
+}
+.fondo{
+    background-color: #e5e5f7;
+    opacity: 1;
+    background-image:  linear-gradient(#0d0f31 1px, transparent 1px), linear-gradient(to right, #0d0f31 1px, #e5e5f7 1px);
+    background-size: 20px 20px;
+    }

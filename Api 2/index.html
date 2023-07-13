@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="custom.css">
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nombres</title>
+</head>
+<body class="fondo">
+    <section>
+        <div class="container col-6 border rounded bg-dark text-white align mt-2 p-3">
+            <div class="column">
+                <label for="" class="form-label">¿Puedo adivinar tu país con solo tu nombre?</label>
+                <div class="d-flex row">
+                    <input type="text" class="form-control" name="" id="textrequest" aria-describedby="helpId" placeholder="¡Escribe tu nombre!">
+                    <button type="submit" class="btn text-white gosearch" id="">Buscar</button>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid d-flex flex-wrap col-10" id="cardcontainer">
+
+        </div>
+    </section>
+</body>
+
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+<script>
+	var datos;
+    $(document).ready(function(){
+        $('.gosearch').click(function(){
+        processGet($("#textrequest").val());
+    })
+    const processGet = (endpoint) => {
+                axios.get('https://api.nationalize.io/?name=' + endpoint)
+                .then((data) => {
+                    // $('#response-code').text(JSON.stringify(data.data, null, 2));
+					console.log(data);
+                    datos = data['data']['country'];
+                    console.log(datos);
+                    const cardTemplate = '<div class="card bg-dark text-white"><div class="card-body"><h4 class="card-title">'+endpoint+'</h4><p class="card-text">Pais: '+datos[0].country_id+'</p><p class="card-text">Probabilidad: '+(datos[0].probability*100)+'%</p></div>';
+                    $('#cardcontainer').append(cardTemplate);
+                })
+                .catch((err) => {
+                    console.log("ERRORRRRRRRRR");
+                })
+            }
+    
+    })
+    
+
+</script>
+</html>
